@@ -57,16 +57,35 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:
+## Program:
+```
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL
+Developed by:Lokhnath J 
+RegisterNumber:  23004865
 
-Result:
+module Logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
+nand(y5,a,b);
+nor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+```
+*/
+
+## Truthtable
+![WhatsApp Image 2023-11-26 at 6 31 53 PM](https://github.com/Lokhnath10/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138969918/e2ee99a8-0962-4cc4-8ff8-1515fe18f68e)
+
+## RTL realization
+![WhatsApp Image 2023-11-26 at 6 32 12 PM](https://github.com/Lokhnath10/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138969918/93ae52e6-2847-4621-8c30-014b79564e4f)
+## waveform
+![WhatsApp Image 2023-11-26 at 6 32 22 PM](https://github.com/Lokhnath10/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/138969918/7341a319-5549-4358-866c-d579dbcd026c)
+
+
+## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
