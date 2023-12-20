@@ -1,7 +1,7 @@
 # Name:LOKHNATH J
 # reg No:23004865
 
-# Experimnet:01 Study of basic digital ICs and verification of truth tables for different logic gates realization
+# Experiment:01 Study of basic digital ICs and verification of truth tables for different logic gates realization
  ## AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
